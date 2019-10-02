@@ -16,6 +16,4 @@ const %{modelName}Schema = new Schema({
 module.exports = mongoose.model("#{modelName}", %{modelName}Schema);
 `;
 
-module.exports = {
-    modelTemplate
-};
+module.exports = { modelTemplate };

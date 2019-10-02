@@ -8,8 +8,7 @@ const paginate = require("../helpers/paginate");
  *
  * @type {Schema}
  */
-const userSchema = new Schema({
-}, { timestamps: true });
+const userSchema = new Schema({}, { timestamps: true });
 
 userSchema.plugin(paginate);
 
